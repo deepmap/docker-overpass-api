@@ -1,5 +1,5 @@
-FROM ubuntu:16.04
-MAINTAINER Frank Villaro-Dixon <docker-overpass-api@vi-di.fr>
+FROM ubuntu:18.04
+LABEL MAINTAINER="Frank Villaro-Dixon <docker-overpass-api@vi-di.fr>"
 
 RUN apt-get update #
 
